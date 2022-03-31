@@ -1,0 +1,21 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_area {
+    border-radius: 10px;
+    border: 2px solid;
+    padding : 20px;
+    text-align: center;
+}
+
+#time {
+    text-align : center;
+    font-size: xx-large;
+    font-style: italic;
+    color :coral;
+}
