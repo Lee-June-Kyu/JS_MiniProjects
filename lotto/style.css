@@ -1,0 +1,29 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lottoArea{
+    min-width: 360px;
+    height : 100px;
+    margin: 0 auto;
+    padding: 30px 0px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    align-content: flex-end;
+  }
+
+  .lottoNumber{
+      font-size: large;
+      font-style: inherit;
+      padding-top: 10px;
+      padding-bottom: 20px;
+  }
+  .headLine{
+      font-size: x-large;
+      font-style: oblique;
+  }
