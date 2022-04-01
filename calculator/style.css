@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calculatorArea {
+    border : 2px solid;
+    min-width: 100px;
+    min-height: 200px;
+    
+}
+
+.resultArea {
+    border : 1px solid ;
+    margin : 20px ;
+    padding : 5px;
+    font-size : xx-large ;
+    text-align: right;
+}
+
+.buttonArea {
+    display :grid;
+    grid-template-columns: repeat(4 , 1fr);
+}
+
+.buttonArea #equalButton {
+    grid-area: 2 / 4 / 6 / 5 ;
+}
+
+button {
+    min-width: 40px;
+    min-height: 30px;
+    margin : 3px;
+}
